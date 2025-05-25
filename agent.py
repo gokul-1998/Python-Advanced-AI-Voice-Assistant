@@ -1,12 +1,12 @@
 from __future__ import annotations
-from livekit.agent import (
+from livekit.agents import (
     AutoSubscribe,
     JobContext,
     WorkerOptions,
     cli,
     llm
 )
-from livekit.agents.multimodal import (
+from livekit.agents import (
     MultimodalAgent,
    
 )
